@@ -16,6 +16,21 @@ git init
 
 Lo que hace este comando es crear un repositorio vacio desde la carpeta en la que te ubicaste anteriormente y genera una carpeta oculta llamada "**.git**" donde git guarda toda la informacion del control de versiones
 
+## Conectar a repositorio
+
+Para lograr subir los archivos y cambios que deseas comodamente, necesitas un repositorio en github y su url, para conectar el repositorio remoto con la carpeta git que creaste, puedes usar el siguiente comando:
+
+```
+git remote add origin <URL DEL REPOSITORIO>
+```
+
+Un mejor ejemplo seria el siguiente:
+
+```
+git remote add origin https://github.com/usuario/nombre-repositorio.git
+```
+De esta forma conectando exitosamente con el repositorio remoto
+
 ## Estado de la carpeta
 
 Para verificar el estado de la carpeta (para ver si hay archivos no añadidos o nuevos que no se han agregado)puedes usar el siguinte comando:
