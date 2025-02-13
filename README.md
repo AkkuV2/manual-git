@@ -2,19 +2,6 @@
 
 En esta guia se manejara de forma sencilla una explicacion basica de algunos comandos de git con su respectiva sintaxis, en caso de llegar a olvidar como se usa cierto comando o cual es su proposito.
 
-## Git init
-
-Este comando sirve para inicializar la conexion de git en una carpeta en especifica, para esto se usara la terminal y una carpeta de preferencia.
-
-Es importante aclarar que tienes que estar en el directorio de dicha carpeta para inicializarlo correctamente, puedes hacerlo desde la terminal o desde una herramienta externa (visual studio code, atom....etc).
-
-Su sintaxis es:
-
-```
-git init
-```
-
-Lo que hace este comando es crear un repositorio vacio desde la carpeta en la que te ubicaste anteriormente y genera una carpeta oculta llamada "**.git**" donde git guarda toda la informacion del control de versiones
 
 ## Conectar a repositorio
 
@@ -30,6 +17,21 @@ Un mejor ejemplo seria el siguiente:
 git remote add origin https://github.com/usuario/nombre-repositorio.git
 ```
 De esta forma conectando exitosamente con el repositorio remoto
+
+## Git init
+
+Este comando sirve para inicializar la conexion de git en una carpeta en especifica, para esto se usara la terminal y una carpeta de preferencia.
+
+Es importante aclarar que tienes que estar en el directorio de dicha carpeta para inicializarlo correctamente, puedes hacerlo desde la terminal o desde una herramienta externa (visual studio code, atom....etc).
+
+Su sintaxis es:
+
+```
+git init
+```
+
+Lo que hace este comando es crear un repositorio vacio desde la carpeta en la que te ubicaste anteriormente y genera una carpeta oculta llamada "**.git**" donde git guarda toda la informacion del control de versiones
+
 
 ## Estado de la carpeta
 
